@@ -1,0 +1,123 @@
+//		 departmentRepository.findByIdDepartamentoAndIdLocacion(idLocation, nombreDepartamento).stream().forEach(t -> 
+////		 departmentRepository.findByCodDepart(idLocation, nombreDepartamento).stream().forEach(t -> 
+           objListResponse
+//   departmentRepository.findByIdDepartamentoAndIdLocacion(idLocation, nombreDepartamento).stream().map(t -> 
+//		 {
+//			 DepartmentsResponse objDepart = new DepartmentsResponse();
+//			 objDepart.setIdDepartamento(String.valueOf(t.getIdDepartamento()));
+//			 objDepart.setNomDepartmeno(t.getNombreDepartamento());
+//			 objDepart.setUbicacion(String.valueOf(t.getIdLocacion()));
+//			 objListResponse.add(objDepart);
+//			 
+//			 DepartmentsResponse objDepart = new DepartmentsResponse();
+//			 objDepart.setIdDepartamento(String.valueOf(t.getIdDepartamento()));
+////			 objDepart.setNomDepartmeno(t.getNombreDepartamento());
+//			 objDepart.setNomDepartmeno(t.getNombreDepartamento());
+//			 objDepart.setUbicacion(String.valueOf(t.getIdLocacion()));
+//			 objListResponse.add(objDepart);
+//			 
+//		 });
+//		
+//		objListResponse.stream()
+////		.filter(x -> x.getNomDepartmeno().equalsIgnoreCase("Test"))
+//		.forEach((e ) -> System.out.println(e.getUbicacion()+" " + e.getIdDepartamento()+ " "+ e.getNomDepartmeno()));
+//		objListResponse.stream().forEach((e ) -> System.out.println(e.getUbicacion()+" " + e.getIdDepartamento()+ " "+ e.getUbicacion()));
+//		objListResponse.stream().forEach((e ) -> System.out.println(e.getUbicacion()+" " + e.getIdDepartamento()+ " "+ e.getUbicacion()));
+		 
+//		for (int i = 0; i < objLista.size(); i++) {
+//			System.out.println(objLista.get(i).getNombreDepartamento());
+//		}
+//		
+//		
+//		int size = department.get().size();
+//		for (int i = 0; i < size; i++) {
+//			System.out.println(department.get().get(i));
+//		}
+		
+//		List<DepartmentsResponse> listDept = new ArrayList<>();
+//		  department.get()
+//		  .forEach(e -> System.out.println(e.getNombreDepartamento()));
+		
+//		for (Departments departmentsResp : department.get()) {
+//			listDept.add(new DepartmentsResponse(String.valueOf(departmentsResp.getIdDepartamento()),departmentsResp.getNombreDepartamento(), String.valueOf(departmentsResp.getIdLocacion())));
+//			 
+//		}
+		
+		 
+		
+//		 department.get().stream().map(t -> 
+//		new DepartmentsResponse(String.valueOf(t.getIdDepartamento()), t.getNombreDepartamento(), String.valueOf(t.getIdLocacion())))
+//			 .forEach(t -> listDept.add(t));
+		
+//		return ResponseEntity.ok(department);
+//		return ResponseEntity.ok(listDept);
+		//		flatMap(dept -> new DepartmentsResponse(dept., nomDepartmeno, ubicacion))
+//		return ResponseEntity.ok((department.get()));
+//		System.err.println("tamano de archivo : "+department.get().size());
+//		DepartmentsResponse response = new  DepartmentsResponse();
+//		Field[]   DeclaredFields= department.get().getClass().getDeclaredFields();
+//	
+////		for (Field field : DeclaredFields) {
+////			System.err.println(" fields "  + field.getName().toString().getClass().getName());
+////			
+////		}
+//		
+//		
+//		Map<String, String> diccionario2 = department.get().stream().filter( map -> map.getClass().getDeclaredFields().getClass().getName().indexOf("id")>=1)
+//				.collect(Collectors.toMap(map -> map.getClass().getDeclaredFields().getClass().getName(), Departments::getNombreDepartamento ));
+//		
+//		
+//		diccionario2.forEach((k, v) -> System.out.println("Key : " + k + ", Value : " + v));
+//		
+//		Map<Long, String> diccionario = department.get().stream().collect(Collectors.toMap(Departments::getIdDepartamento, Departments::getNombreDepartamento));
+//		
+//		System.err.println("tamano de archivo Mapa : "+ diccionario.size());
+//		
+////		Map<String, String> diccionario = new HashMap<>();
+////		diccionario.put("idDepartamento", String.valueOf((department.get().get(0).getIdDepartamento())));
+////		diccionario.put("idLocacion", String.valueOf((department.get().get(0).getIdLocacion())));
+//////		diccionario.put("idLocacion", 1);
+////		diccionario.put("nombreDepartamento", department.get().get(0).getNombreDepartamento());
+//////		diccionario.put("nombreDepartamento", 2);
+//		
+//		   
+//		if(department.isPresent()) {
+//			
+//			diccionario.forEach(
+//				          (k, v) -> {
+//				              // yes, we can put logic here
+//				              if (k != null){
+//				                  System.out.println("Key : " + k + ", Value : " + v);
+//				              }
+//				          }
+//				      );
+//			
+//		
+////			Map<Long, String>  result= diccionario.entrySet()
+////					   .stream()
+////					   .filter(map-> nombreDepartamento.equals(map.getValue()))
+////					   .collect(Collectors.toMap(map -> map.getKey(), map -> map.getValue()));
+////			
+//			
+//			String valor = diccionario.entrySet()
+//					   .stream()
+//					   .filter(map-> nombreDepartamento.equals(String.valueOf(map.getKey())))
+//					   .map(map -> map.getValue())
+//					   .sorted()
+//					   .collect(Collectors.joining());
+//			
+//		
+//		
+//			System.out.println("Obteniendo valor de llave"+ valor);
+////		String valorfiltrado = (String) result.get(0);
+//			
+////		System.out.println("valor filtrado : " + valorfiltrado);
+////			System.out.println("tamaño de arreglo filtrado"+result.size());
+//			
+//			
+//			
+////			response.setIdDepartamento(String.valueOf(llave));
+//			response.setNomDepartmeno(valor);
+//		}
+//		
+		return ResponseEntity.ok(null);
